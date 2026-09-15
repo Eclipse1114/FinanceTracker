@@ -9,7 +9,7 @@ st.markdonw("""
         border-color: Cyan;
         border-width: 10px;
     }
-""", unsafe_allow_html=True
+""", unsafe_allow_html=True)
 
 conn = sqlite3.connect("purchases.db", check_same_thread=False)
 c = conn.cursor()
