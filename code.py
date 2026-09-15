@@ -9,7 +9,7 @@ st.markdown("""
             color: Black;
         }
 
-        .st-key-sidebar {
+        .stSidebar {
             background-color: Cyan;
             color: Black;
         }
@@ -45,7 +45,7 @@ default_categories = [
     "Clothing"
 ]
 
-st.sidebar.header("⚙️ Budget Settings", key="sidebar")
+st.sidebar.header("⚙️ Budget Settings")
 budgets = {}
 
 for category in default_categories:
