@@ -6,9 +6,10 @@ st.markdown("""
     <style>
         .stApp {
             background-color: LightGreen;
+            color: Black;
             broder: solid;
             border-color: Cyan;
-            border-width: 10px;
+            border-width: 30px;
         }
     </style>
 """, unsafe_allow_html=True)
