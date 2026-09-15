@@ -9,7 +9,7 @@ st.markdown("""
             color: Black;
             broder: solid;
             border-color: Cyan;
-            border-width: 30px;
+            border-width: 10%;
         }
     </style>
 """, unsafe_allow_html=True)
