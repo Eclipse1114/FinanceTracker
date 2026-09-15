@@ -2,9 +2,15 @@ import pandas as pd
 import sqlite3
 import streamlit as st
 
-# ============================================================
-# DATABASE SETUP
-# ============================================================
+st.markdonw("""
+    .stApp {
+        background-color: LightGreen;
+        broder: solid;
+        border-color: Cyan;
+        border-width: 10px;
+    }
+""", unsafe_allow_html=True
+
 conn = sqlite3.connect("purchases.db", check_same_thread=False)
 c = conn.cursor()
 c.execute(
@@ -18,9 +24,6 @@ c.execute(
 )
 conn.commit()
 
-# ============================================================
-# PAGE SETUP
-# ============================================================
 st.set_page_config(
     page_title="SpendSense",
     page_icon="💰",
