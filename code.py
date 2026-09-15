@@ -2,7 +2,7 @@ import pandas as pd
 import sqlite3
 import streamlit as st
 
-st.markdonw("""
+st.markdown("""
     .stApp {
         background-color: LightGreen;
         broder: solid;
