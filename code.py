@@ -15,7 +15,7 @@ st.markdown("""
         }
 
         .stAppHeader {
-            visibility: hidden;
+            opacity: 0%;
         }
     </style>
 """, unsafe_allow_html=True)
