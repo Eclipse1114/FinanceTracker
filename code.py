@@ -7,9 +7,11 @@ st.markdown("""
         .stApp {
             background-color: LightGreen;
             color: Black;
-            broder: solid;
-            border-color: Cyan;
-            border-width: 10%;
+        }
+
+        .st-key-sidebar {
+            background-color: Cyan;
+            color: Black;
         }
     </style>
 """, unsafe_allow_html=True)
@@ -43,7 +45,7 @@ default_categories = [
     "Clothing"
 ]
 
-st.sidebar.header("⚙️ Budget Settings")
+st.sidebar.header("⚙️ Budget Settings", key="sidebar")
 budgets = {}
 
 for category in default_categories:
