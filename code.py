@@ -15,6 +15,10 @@ st.markdown("""
         }
 
         .stAppToolbar {
+            visibility: visible;
+        }
+
+        .stAppHeader {
             visibility: hidden;
         }
     </style>
