@@ -12,12 +12,7 @@ st.markdown("""
         .stSidebar {
             background-color: Cyan;
             color: Black;
-            visibility: visible;
         }
-
-        header {
-            visibility: hidden;
-    }
     </style>
 """, unsafe_allow_html=True)
 
