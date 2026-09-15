@@ -14,9 +14,9 @@ st.markdown("""
             color: Black;
         }
 
-        .stAppHeader {
-            opacity: 0%;
-        }
+        header {
+            visibility: hidden;
+    }
     </style>
 """, unsafe_allow_html=True)
 
