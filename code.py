@@ -13,6 +13,10 @@ st.markdown("""
             background-color: Cyan;
             color: Black;
         }
+
+        .stAppToolbar {
+            visibility: hidden;
+        }
     </style>
 """, unsafe_allow_html=True)
 
