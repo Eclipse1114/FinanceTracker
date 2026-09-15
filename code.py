@@ -3,12 +3,14 @@ import sqlite3
 import streamlit as st
 
 st.markdown("""
-    .stApp {
-        background-color: LightGreen;
-        broder: solid;
-        border-color: Cyan;
-        border-width: 10px;
-    }
+    <style>
+        .stApp {
+            background-color: LightGreen;
+            broder: solid;
+            border-color: Cyan;
+            border-width: 10px;
+        }
+    </style>
 """, unsafe_allow_html=True)
 
 conn = sqlite3.connect("purchases.db", check_same_thread=False)
